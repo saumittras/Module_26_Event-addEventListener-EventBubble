@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS DOM Event</title>
+  </head>
+  <body>
+    <h1 onclick="console.log('I am clicked')">DOM er ajke special events</h1>
+    <button onclick="console.log(7)">Click Me</button>
+    <button onclick="console.log(65)">Another Button</button>
+    <!-- Option One to event handeler -->
+    <button onclick="document.body.style.backgroundColor='Yellow'">
+      Body Background Yellow
+    </button>
+    <!-- Event Handler option 2  mostly used event handler-->
+    <button onclick="makeRed()">Make Red</button>
+    <!-- Option 3 -->
+    <button id="make-blue">Make Blue</button>
+    <!-- Option 3 -->
+    <button id="make-purple">Make Purple</button>
+    <script src="js/event.js"></script>
+    <script></script>
+  </body>
+</html>
